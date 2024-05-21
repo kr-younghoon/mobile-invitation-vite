@@ -1,9 +1,5 @@
-# React + Vite
+### log
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# f-project
+#### 2024-05-21
+###### [모바일 초대장 레포](https://github.com/kr-younghoon/Mobile_Invitation_Proj) 마이그레이션
+    -   CRA 환경에서 VITE 환경으로 이동

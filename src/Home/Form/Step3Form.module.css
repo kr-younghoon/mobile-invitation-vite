@@ -1,0 +1,70 @@
+.title {
+    padding: 0 20px 20px;
+    font-family: var(--title-large-font);
+    font-size: var(--title-large-font-size);
+    line-height: var(--title-large-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+.guide {
+    padding: 0 22px 20px;
+
+    /* subtitle / Caption */
+    color: #000;
+
+    /* subtitle/caption */
+    font-family: var(--subtitle-caption-font);
+    font-size: var(--subtitle-caption-font-size);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--subtitle-caption-line-height); /* 166.667% */
+}
+
+.next_button {
+    margin: 0 20px 20px;
+    height: 24px;
+    width: 80.4px;
+    background-color: #fff;
+    border: #fff; /* 선의 두께와 색상 설정 */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    /* font */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+    font-weight: 700;
+}
+
+.next_step_text {
+    color: rgba(0, 0, 0, 0.15);
+
+    /* subtitle/small */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+    font-weight: 700;
+}
+
+.next_step_text_black {
+    color: rgb(0, 0, 0);
+
+    /* subtitle/small */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+}
+
+.CheckboxButtonLayout {
+    margin: 0 20px 0;
+    /* display: flex; */
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.CheckboxButtonLayout div {
+    display: flex;
+    margin-bottom: 8px;
+    gap: 8px;
+}

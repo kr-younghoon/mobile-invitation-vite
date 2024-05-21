@@ -1,0 +1,60 @@
+/* .modalclosebtn {
+
+} */
+
+.sub_cap {
+    font-family: var(--subtitle-caption-font);
+    font-size: var(--subtitle-caption-font-size);
+    line-height: var(--subtitle-caption-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+@keyframes slideIn2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.slide_in2 {
+    animation: slideIn2 3s;
+}
+
+.ModalLottie {
+    width: 50vh;
+    height: 50vh;
+    position: absolute;
+    z-index: 40;
+}
+
+.ModalCloseBtn {
+    z-index: 30;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 12px 0 0 268px;
+}
+
+.ModalGuideText {
+    z-index: 30;
+    position: absolute;
+    margin-top: 489px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.ModalImg {
+    z-index: 20;
+    position: relative;
+}

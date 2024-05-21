@@ -1,0 +1,143 @@
+.sub_lg {
+    font-family: var(--subtitle-large-font);
+    font-size: var(--subtitle-large-font-size);
+    line-height: var(--subtitle-large-line-height);
+    font-weight: 800; /* 해당 스타일이 Bold인 경우에만 추가 */
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.sub_sm {
+    /* subtitle/small */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+    /* btn */
+}
+
+.sub_cap {
+    /* subtitle/small */
+    font-family: var(--subtitle-caption-font);
+    font-size: var(--subtitle-caption-font-size);
+    line-height: var(--subtitle-caption-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+    /* btn */
+}
+
+.next_button {
+    margin: 20px;
+    height: 24px;
+    width: 79.4px;
+    background-color: #fff;
+    border: #fff; /* 선의 두께와 색상 설정 */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    /* font */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+    font-weight: 700;
+}
+
+.next_step_text_black {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* subtitle/small */
+    font-weight: 700;
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    background: none;
+    width: 296px;
+    height: 18px;
+
+    border: #000000;
+
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+    font-weight: 700;
+    outline: none;
+}
+
+.txtareaLayout {
+    display: flex;
+    width: 296px;
+    /* height: auto; */
+    margin: 20px 16px;
+    padding: 16px;
+    gap: 8px;
+    flex-direction: column;
+
+    /* background */
+    background: var(--point-color);
+    border-radius: 8px;
+}
+
+.txtareaLayout p {
+    /* subtitle/small */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+    font-weight: 700;
+}
+
+.txtareaLayout p input {
+    width: 211px;
+    margin-left: 5px;
+    outline: none;
+    background: none;
+
+    /* bordeer */
+    border-top: #000000;
+    border-left: #000000;
+    border-right: #000000;
+    border-bottom: 1px solid #000;
+
+    /* font-sub-sm */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+    font-weight: 700;
+    text-align: center;
+}
+
+.txtareaLayout button {
+    background: #ffffff;
+    border: #000000;
+    border-radius: 1000px;
+    height: 32px;
+    padding: 0px 12px;
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+    font-weight: 700;
+}
+
+.comment_item {
+    /* 다른 스타일 설정 */
+    gap: 8px;
+    padding: 16px;
+}
+
+.commentsHeaderLayout {
+    padding: 0px 16px;
+}
+
+.comment_line {
+    border-bottom: 4px solid var(--point-color);
+    margin-top: 10px;
+    margin-bottom: 10px; /* 원하는 간격 설정 */
+
+    /* 댓글 항목 사이에 수평선 스타일 설정 */
+}

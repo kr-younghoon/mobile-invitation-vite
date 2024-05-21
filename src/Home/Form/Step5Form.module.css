@@ -1,0 +1,52 @@
+.title {
+    padding: 0 20px 0;
+    font-family: var(--title-large-font);
+    font-size: var(--title-large-font-size);
+    line-height: var(--title-large-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+.subtitleCaption {
+    padding: 0 20px 0;
+    font-family: var(--subtitle-caption-font);
+    font-size: var(--subtitle-caption-font-size);
+    line-height: var(--subtitle-caption-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+/* 새로운 CSS 클래스 및 애니메이션 추가 */
+@keyframes slideIn {
+    from {
+        transform: translateY(100%); /* 시작 위치: 아래에서 위로 숨겨진 상태 */
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0); /* 끝 위치: 화면 안으로 위로 이동 */
+        opacity: 1;
+    }
+}
+
+.slide_in {
+    animation: slideIn 1s ease-in-out; /* 애니메이션 지속 시간 및 타이밍 함수 설정 */
+}
+
+@keyframes slideIn2 {
+    0% {
+        transform: translateY(100%); /* 시작 위치: 아래에서 위로 숨겨진 상태 */
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(
+            100%
+        ); /* 애니메이션 지연을 위해 50% 동안 현재 위치를 유지합니다 */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* 끝 위치: 화면 안으로 위로 이동 */
+        opacity: 1;
+    }
+}
+
+.slide_in2 {
+    animation: slideIn2 3s ease-in-out; /* 애니메이션 지속 시간 및 타이밍 함수 설정 */
+}

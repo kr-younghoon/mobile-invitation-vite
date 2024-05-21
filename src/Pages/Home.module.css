@@ -1,0 +1,37 @@
+.next_button {
+    margin: 20px;
+    height: 24px;
+    width: 79.4px;
+    background-color: #fff;
+    border: #fff; /* 선의 두께와 색상 설정 */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    /* font */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+    font-weight: 700;
+}
+
+.next_step_text {
+    color: rgba(0, 0, 0, 0.15);
+
+    /* subtitle/small */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+}
+
+.next_step_text_black {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* subtitle/small */
+    font-weight: 700;
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-font-height);
+}

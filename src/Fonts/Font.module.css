@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Happiness-Sans-Bold';
+    font-weight: Bold;
+    font-display: swap;
+    src: local('Happiness-Sans-Bold'),
+        url('./Happiness-Sans/Happiness-Sans-Bold.woff') format('woff'),
+        url('./Happiness-Sans/Happiness-Sans-Bold.woff2') format('woff2');
+}

@@ -1,0 +1,94 @@
+.title {
+    padding: 0 20px 20px;
+    font-family: var(--title-large-font);
+    font-size: var(--title-large-font-size);
+    line-height: var(--title-large-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+.title2 {
+    padding: 20px 20px 0;
+    font-family: var(--title-large-font);
+    font-size: var(--title-large-font-size);
+    line-height: var(--title-large-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+/* .scrollable_div {
+    overflow-y: scroll;
+} */
+
+.sub {
+    margin: 0 20px 0;
+    width: 320px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    text-align: center;
+    border-radius: 1000px;
+    background: #9affb6;
+}
+
+.sub_cap {
+    font-family: var(--subtitle-caption-font);
+    font-size: var(--subtitle-caption-font-size);
+    line-height: var(--subtitle-caption-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+.sub_lg {
+    font-family: var(--subtitle-large-font);
+    font-size: var(--subtitle-large-font-size);
+    line-height: var(--subtitle-large-line-height);
+    font-weight: 800; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+a {
+    text-decoration: none; /* 밑줄 없애기 */
+}
+
+.map {
+    margin: 0 20px 0;
+}
+
+.sub_sm {
+    margin: 5px 20px 0;
+    /* subtitle/small */
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+.openMapBtn {
+    margin: 20px 20px 50px;
+
+    display: flex;
+    width: 320px;
+    height: 42px;
+    padding: 0px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: none;
+    /* size */
+    border-radius: 1000px;
+    background: #9affb6;
+
+    font-family: var(--subtitle-small-font);
+    font-size: var(--subtitle-small-font-size);
+    line-height: var(--subtitle-small-line-height);
+    font-weight: 700; /* 해당 스타일이 Bold인 경우에만 추가 */
+}
+
+.openMapBtn_layout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
